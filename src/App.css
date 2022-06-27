@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  background: blue;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.StockSymbol{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #6B818C;
+}
+
+.Wrapper {
+  background-color:#D8E4FF;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Header {
+  padding: 50px;
+  background-color:#35605A;
+  color: #D8E4FF;
+}
+
+.Buy {
+  padding: 10px;
+  font-size: 20px;
+
+  background-color: #31E981
+
+}
+
+.LegendBuy {
+  color: #31E981;
+    font-size: 20px;
+
+}
+
+.LegendSell {
+  font-size: 20px;
+  color: #6B818C;
+}
+
