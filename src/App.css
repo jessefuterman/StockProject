@@ -1,0 +1,171 @@
+.App {
+  display: flex;
+  /* justify-content: space-between;
+  max-width: 960px;
+  width:100%;y
+  margin: auto;
+  flex-flow:wrap; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #1e9f2687;
+}
+
+.buy-button{
+--color: hsl(223, 35%, 43%);
+background: var(--color);
+border: none;
+padding: .5em .75em;
+border-radius: 15px;
+color: white;
+font-size: 1rem;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.buy-button:hover, .buy-button:focus{
+  background: hsl(223, 50%, 60%);
+}
+
+.buy-button.btn-outline{
+background: none;
+border: 2px solid var(--color);
+color: var(--color);
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  background: blue;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.card-footer{
+font-size: 1.5rem;
+margin-bottom: .5rem;
+
+
+
+}
+
+.card-header{
+font-size: 1.5rem;
+margin-bottom: 1.5rem;
+border: 1px solid;
+
+}
+
+.container{
+
+  display:flex
+}
+.SellStock{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #6B818C;
+}
+
+.HoldStock{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #9ec200;
+}
+
+.Middle-Wrapper {
+  background-color:#D8E4FF;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: #1f262c;
+  margin: 15px 8px;
+  padding: 30px;
+  border-radius: 6px;
+  color: #fff;
+
+}
+
+.Section{
+  
+
+}
+
+.Sell-Wrapper{
+  background-color:#D8E4FF;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  background-color: #1f262c;
+  margin: 15px 8px;
+  padding: 30px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.Header {
+  padding: 50px;
+  background-color:#35605A;
+  color: #D8E4FF;
+}
+.Parent-Column{
+  display:flex;
+}
+
+.Buy-Column{
+  display:flex;
+  flex-direction: column;
+ 
+}
+
+.Sell-Column{
+  display:flex;
+  flex-direction: column;
+}
+
+.Hold-Column{
+  display:flex;
+  flex-direction: column;
+}
+
+.Buy {
+  font-size: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+  flex: 1px;
+  
+
+
+
+}
+
+.LegendBuy {
+  font-size: 20px;
+  color: #31E981;
+}
+
+.LegendSell {
+  font-size: 20px;
+  color: #6B818C;
+}
+
+.LegendHold {
+  font-size: 20px;
+  color: #9ec200;
+}
+
+
